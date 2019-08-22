@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    width: 34rem;
+    height: 43rem;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    height: 6.2rem;
+    width: 25rem;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.logo-container {
+    margin: 1rem auto 1rem auto;
+}
+
+.numBtn {
+    height: 5.2rem;
+    width: 5.2rem;
+    border-radius: 5.2rem;
+    background: darkblue;
+    color: white;
+    font-size: 2rem;
+}
+
+.splBtn {
+    background: lightskyblue;
+    color: white;
+    margin: auto 1rem auto 1rem;
+    font-size: 2rem;
+    height: 5.2rem;
+    width: 5.2rem;
+    border-radius: 5.2rem;
+}
+
+.opBtn {
+    background: lightskyblue;
+    color: white;
+    font-size: 2rem;
+    height: 5.2rem;
+    width: 5.2rem;
+    border-radius: 5.2rem;
+}
+
+.numDiv {
+    display: flex;
+    width: 25rem;
+}
