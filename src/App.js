@@ -24,14 +24,14 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
-        <Display />
         <div className="display-row"> 
-          <Specials />
-          <div className="numDiv">
+          <Display />
+        </div> 
+          <div className="btnDiv">
+            <Specials />
             <Numbers />
             <Operators />
           </div>
-        </div> 
              {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
 
       </div>

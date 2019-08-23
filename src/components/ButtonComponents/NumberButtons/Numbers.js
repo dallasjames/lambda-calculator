@@ -7,7 +7,7 @@ import NumberButton from "./NumberButton"
 import { numbers } from '../../../data';
 
 const Numbers = () => {
-  const [numberState, setNumberState] = useState(numbers);
+  const [numberState] = useState(numbers);
   // STEP 2 - add the imported data to state
   return (
     <div className="numbers">
