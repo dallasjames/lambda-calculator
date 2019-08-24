@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    background-color: #a81D36;
     border-radius: 10px;
-    width: 30rem;
-    height: 40rem;
+    width: 29.4rem;
+    height: 44rem;
 }
 
 .App {
@@ -13,54 +13,83 @@
     flex-direction: column;
 }
 
-.display {
+.display-row {
     display: flex;
     justify-content: flex-end;
     align-content: center;
     height: 6.2rem;
     width: 25rem;
-    margin: auto;
+    margin: auto auto 1rem auto;
     background-color: black;
     color: white;
     border-radius: 50px;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    margin: 0 1.1rem 0 0;
+    font-size: 3rem;
 }
 
 .logo-container {
     margin: 1rem auto 1rem auto;
 }
 
-.numBtn {
-    height: 5.2rem;
-    width: 5.2rem;
-    border-radius: 5.2rem;
-    background: darkblue;
+.opBtn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
     color: white;
+    background: #237293;
+    margin: .7rem;
+    border-width: 0;
     font-size: 2rem;
+}
+
+.numBtn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: white;
+    background: #184379;
+    margin: .7rem;
+    border-width: 0;
+    font-size: 2rem;
+}
+
+.numBtn:nth-child(10) {
+    width: 11.4rem;
+    border-radius: 5rem;
 }
 
 .splBtn {
-    background: lightskyblue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
     color: white;
+    background: #237293;
+    margin: .7rem;
+    border-width: 0;
     font-size: 2rem;
-    height: 5.2rem;
-    width: 5.2rem;
-    border-radius: 5.2rem;
 }
 
-.opBtn {
-    background: skyblue;
-    color: white;
-    font-size: 2rem;
-    height: 5.2rem;
-    width: 5.2rem;
-    border-radius: 5.2rem;
+.splDiv {
+    display: flexbox;
+    flex-direction: row;
 }
 
-.display-row {
+.opDiv {
     display: flex;
+    flex-direction: row-reverse;
 }
 
-.btnDiv {
-    display: flex;
-    margin: 1rem 1rem auto 1rem;
+.opDivDiv {
+    margin: -6.5rem 0 0 0;
 }
+
+.numDivDiv {
+    width: 20rem;
+    margin: -25.6rem 0 0 0;
+}
+

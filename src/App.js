@@ -27,11 +27,15 @@ function App() {
         <div className="display-row"> 
           <Display />
         </div> 
-          <div className="btnDiv">
-            <Specials />
-            <Numbers />
-            <Operators />
-          </div>
+        <div className="splDivDiv">
+          <Specials />
+        </div>
+        <div className="opDivDiv">
+          <Operators />
+        </div>
+        <div className="numDivDiv">
+          <Numbers />
+        </div>
              {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
 
       </div>
