@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a81D36;
+    border-radius: 10px;
+    width: 29.4rem;
+    height: 44rem;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-row {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    height: 6.2rem;
+    width: 25rem;
+    margin: auto auto 1rem auto;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    margin: 0 1.1rem 0 0;
+    font-size: 3rem;
+}
+
+.logo-container {
+    margin: 1rem auto 1rem auto;
+}
+
+.opBtn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: white;
+    background: #237293;
+    margin: .7rem;
+    border-width: 0;
+    font-size: 2rem;
+}
+
+.numBtn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: white;
+    background: #184379;
+    margin: .7rem;
+    border-width: 0;
+    font-size: 2rem;
+}
+
+.numBtn:nth-child(10) {
+    width: 11.4rem;
+    border-radius: 5rem;
+}
+
+.splBtn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: white;
+    background: #237293;
+    margin: .7rem;
+    border-width: 0;
+    font-size: 2rem;
+}
+
+.splDiv {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.opDiv {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.opDivDiv {
+    margin: -6.5rem 0 0 0;
+}
+
+.numDivDiv {
+    width: 20rem;
+    margin: -25.6rem 0 0 0;
+}
+
